@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+*debug.log*
+*error.log*
+
+# Folders & Files
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+*.env
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+*.ffs_db
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Terraform
+terraform/*/.terraform*
+*.tfstate*
+*.tfvars
